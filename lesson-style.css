@@ -20,7 +20,7 @@ img {
 /* Grid and General Layout */
 
 .section {
-  background: red;
+  background: #869bba;
   padding: 2rem;
 }
 
@@ -51,8 +51,8 @@ img {
   margin: 0;
 }
 
-.profile_username {
-  font-size: 9rem;
+.profile__username {
+  font-size: 1rem;
   text-align: center;
 }
 
