@@ -12,3 +12,52 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+/* Grid and General Layout */
+
+.section {
+  background: red;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 60rem;
+  /*background-color: #a2962c;*/
+  margin: 0 auto;
+}
+
+.row {
+  /*makes sure the first and last items line up*/
+  margin: -2rem;
+  overflow: auto;
+}
+
+.grid-item {
+  width: calc(100% / 4 - 2rem - 2rem);
+  min-width: 8rem;
+  float: left;
+  margin: 2rem;
+
+}
+
+
+
+/*profile*/
+.profile {
+  margin: 0;
+}
+
+.profile_username {
+  font-size: 9rem;
+  text-align: center;
+}
+
+/*Propmt*/
+
+.prompt {
+  text-align: center;
+}
